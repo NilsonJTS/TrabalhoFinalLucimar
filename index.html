@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeçalho de Navegação</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Logo</div>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <div class="menu-icon" id="menu-icon">
+                <span class="material-icons">menu</span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="filter-options">
+        <button class="filter-btn" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="dourados">Dourados</button>
+        <button class="filter-btn" data-filter="prateados">Prateados</button>
+    </div>
+
+    <section class="product-gallery" id="product-gallery">
+        <!-- Produtos serão carregados aqui via JavaScript -->
+    </section>
+
+    <footer class="footer">
+        <div class="footer-logo">Logo</div>
+        <p class="footer-text">© 2024 Todos os direitos reservados.</p>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
